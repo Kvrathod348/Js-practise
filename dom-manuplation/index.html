@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+
+<body>
+    <button type="button" onclick="hello()">Hello</button>
+
+    <button type="button" onclick="goodmorning()">Good Morning</button>
+
+    <p id="greeting">No greeting yet</p>
+
+    <script>
+        function hello() {
+            const greetingElement = document.getElementById('greeting');
+            greetingElement.innerText = 'Hello World!';
+        }
+        function goodmorning() {
+            const greetingElement = document.getElementById('greeting');
+            greetingElement.innerText = 'Good morning !';
+        }
+    </script>
+</body>
+
+</html>
